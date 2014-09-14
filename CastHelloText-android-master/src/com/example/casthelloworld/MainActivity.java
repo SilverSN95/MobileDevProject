@@ -420,5 +420,11 @@ public class MainActivity extends ActionBarActivity {
 		}
 
 	}
+	
+	public void switchActivities(View view) {
+	    // Do something in response to button
+	    Intent intent = new Intent(this, DrawingActivity.class);
+	    startActivity(intent);
+	}
 
 }
